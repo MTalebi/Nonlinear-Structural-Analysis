@@ -7,6 +7,21 @@ An interactive book on matrix methods for nonlinear structural analysis, with Op
 
 **Read the book:** <https://mtalebi.github.io/Nonlinear-Analysis-Book/>
 
+## Citation
+
+If this material is useful in your teaching or research, please cite it:
+
+```bibtex
+@misc{talebi2026NLAbook,
+  author       = {Talebi-Kalaleh, M.},
+  year         = {2026},
+  title        = {Nonlinear Structural Analysis [e-book]},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.23457260},
+  url          = {https://doi.org/10.5281/zenodo.23457260}
+}
+```
+
 ## About the book
 
 Each method in the book is developed in three layers: the governing mechanics derived from first principles, a language-independent algorithm stated in pseudocode, and a runnable OpenSeesPy implementation that builds the model, runs the analysis, and plots or tabulates the result. The fourteen chapters start with the matrix framework, virtual work, shape functions, transformations, and numerical integration. They continue through linear elastic elements, nonlinear material models, fiber section discretization, nonlinear solution strategies, nonlinear beam-column elements, geometric nonlinearity, and nonlinear dynamics. The book closes with a mini analysis program and worked case studies. All examples use SI units, and the code cells can be run directly in the browser.
@@ -21,21 +36,6 @@ This repository is the public archive record of the book. It holds the citation 
 | `.zenodo.json` | Metadata for the Zenodo archive |
 | `requirements.txt`, `runtime.txt` | Python 3.12 environment of the live kernel |
 | `LICENSE` | Full text of the CC BY-NC-ND 4.0 license |
-
-## How to cite
-
-```bibtex
-@book{TalebiKalaleh_NonlinearStructuralAnalysis,
-  author    = {Talebi-Kalaleh, Mohammad},
-  title     = {Nonlinear Structural Analysis},
-  year      = {2026},
-  publisher = {Zenodo},
-  doi       = {10.5281/zenodo.23457260},
-  url       = {https://mtalebi.github.io/Nonlinear-Analysis-Book/}
-}
-```
-
-The DOI above always resolves to the latest version of the book.
 
 ## License
 
