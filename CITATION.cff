@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this book, please cite it using the metadata below."
 type: software
 title: "Nonlinear Structural Analysis"
+doi: 10.5281/zenodo.23457260
 abstract: >-
   An interactive book on matrix methods for nonlinear structural analysis,
   with OpenSeesPy as the computational platform. Each method is developed as

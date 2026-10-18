@@ -1,5 +1,6 @@
 # Nonlinear Structural Analysis
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23457260.svg)](https://doi.org/10.5281/zenodo.23457260)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 An interactive book on matrix methods for nonlinear structural analysis, with OpenSeesPy as the computational platform.
@@ -29,9 +30,12 @@ This repository is the public archive record of the book. It holds the citation 
   title     = {Nonlinear Structural Analysis},
   year      = {2026},
   publisher = {Zenodo},
+  doi       = {10.5281/zenodo.23457260},
   url       = {https://mtalebi.github.io/Nonlinear-Analysis-Book/}
 }
 ```
+
+The DOI above always resolves to the latest version of the book.
 
 ## License
 
