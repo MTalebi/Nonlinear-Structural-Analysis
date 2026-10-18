@@ -1,0 +1,31 @@
+{
+  "title": "Nonlinear Structural Analysis",
+  "upload_type": "software",
+  "description": "<p>This interactive book presents matrix methods for nonlinear structural analysis, with OpenSeesPy as the computational platform. Each method is developed in three layers: the governing mechanics derived from first principles, a language-independent algorithm stated in pseudocode, and a runnable OpenSeesPy implementation that builds the model, runs the analysis, and plots or tabulates the result. The fourteen chapters start with the matrix framework, virtual work, shape functions, transformations, and numerical integration. They continue through linear elastic elements, nonlinear material models, fiber section discretization, nonlinear solution strategies, nonlinear beam-column elements, geometric nonlinearity, and nonlinear dynamics. The book closes with a mini analysis program and worked case studies. All examples use SI units.</p><p>The book is published online at <a href=\"https://mtalebi.github.io/Nonlinear-Analysis-Book/\">https://mtalebi.github.io/Nonlinear-Analysis-Book/</a>, where the code cells can be run in the browser. This record archives the citation metadata of the book and the Python environment of its live kernel.</p>",
+  "creators": [
+    {
+      "name": "Talebi-Kalaleh, Mohammad",
+      "affiliation": "University of Alberta",
+      "orcid": "0009-0004-3754-5992"
+    }
+  ],
+  "license": "cc-by-nc-nd-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "nonlinear structural analysis",
+    "finite element method",
+    "OpenSeesPy",
+    "matrix structural analysis",
+    "plasticity",
+    "fiber sections",
+    "pushover analysis",
+    "nonlinear dynamics"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://mtalebi.github.io/Nonlinear-Analysis-Book/",
+      "relation": "isSupplementTo"
+    }
+  ]
+}

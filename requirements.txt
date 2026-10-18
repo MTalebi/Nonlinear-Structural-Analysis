@@ -1,0 +1,20 @@
+# Python environment for the live code cells of the Nonlinear Structural Analysis book.
+#
+# mybinder.org builds the kernel image from this file and runtime.txt (Python 3.12).
+# The book website sends each code cell to that kernel when a reader runs it.
+#
+# OpenSeesPy 3.8 resolves its compiled backend only on Python >= 3.12; on Linux
+# (Binder) it pulls openseespylinux automatically.
+
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+pandas>=2.0
+plotly>=5.18
+sympy>=1.12
+
+# Structural analysis engine (pinned for reproducible results across platforms).
+openseespy==3.8.0.0
+
+# Jupyter kernel.
+ipykernel>=6.25

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this book, please cite it using the metadata below."
+type: software
+title: "Nonlinear Structural Analysis"
+abstract: >-
+  An interactive book on matrix methods for nonlinear structural analysis,
+  with OpenSeesPy as the computational platform. Each method is developed as
+  mechanics, a language-independent algorithm, and a runnable OpenSeesPy
+  implementation, from the matrix framework and linear elements through
+  material and section nonlinearity, nonlinear solution strategies, geometric
+  nonlinearity, and nonlinear dynamics.
+authors:
+  - family-names: Talebi-Kalaleh
+    given-names: Mohammad
+    affiliation: University of Alberta
+    orcid: "https://orcid.org/0009-0004-3754-5992"
+license: CC-BY-NC-ND-4.0
+url: "https://mtalebi.github.io/Nonlinear-Analysis-Book/"
+repository-code: "https://github.com/MTalebi/Nonlinear-Structural-Analysis"
+keywords:
+  - nonlinear structural analysis
+  - finite element method
+  - OpenSeesPy
+  - matrix structural analysis
+  - plasticity
+  - fiber sections
+  - pushover analysis
+  - nonlinear dynamics
